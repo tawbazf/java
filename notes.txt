@@ -52,6 +52,10 @@ variable scope in java
 local scope
 block scope
 global scope
-
+formatting output using printf()
+System.out.printf("format string",list of arguments);
+ %d: placeholder for an integer
+ %s placeholder for a string
+ %f placeholder for a floating number
 
 
