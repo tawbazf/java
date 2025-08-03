@@ -21,5 +21,8 @@ public class Exemple12 {
         
         //replace
         System.out.println("Replace 'World' with 'Java': " + str.replace("World", "Java"));
+        //immutable cant be changed after they are created
+        str = str + "New String";
+        System.out.println("After reassignment: " + str);
     }
 }
