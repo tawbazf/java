@@ -1,0 +1,57 @@
+java is a strongly typed language
+( every variable  or parameter or expression has a data type )
+data types and variables
+1)data types
+a)primitive data types (simple values): 
+boolean
+char
+byte short int long
+float double
+b)non primitive data types or refrence data types
+array = int [] myarray= new int[5];
+array = int [] myarray= new int[] { 1,2,3,4,5};
+class : blueprint of an object 
+class Myclass{
+    //class body
+}
+interfaces
+string: string mystring ="hello";
+enum 
+2)variables
+has a name a data type and a value :int age =5;
+3) int age;//variable declaration
+age=25;//variable initialization
+int age=25; 
+4)casting
+flot to int can be 
+but float to boolean no
+explicit casting (type casting)
+float f =3.14f;
+int e = (int) f;
+implicit casting (type promotion ) done automaticcly by the compiler
+byte b =10;
+int i=b;
+//primitive vs non primitive
+primitive data types are stored in the stack ( stored in a fixed amount of memory and have a spesific size)
+non primitive data types are stored in the heap (have a variable size and their memory is allocated dynamically)
+primitive data types have a value
+non primitive data types have a refrence to an object 
+primitive data types have a predefined set of operations that can be performed on them
+non primitive data types can have custom methods defined for them 
+the result of the following code?
+
+int primitiveInt = 5;
+String nonPrimitiveString = new String("Hello");
+primitive data type that directly holds the value 5, while nonPrimitiveString is a reference variable that points to a String object containing "Hello".
+
+// variables naming conventions
+ variables in java are case sensitive (myVariable is diff from myvariable)
+must begin with a letter dollor sign or underscore and onmy contain letters numbers dollar signs and underscores
+variable scope in java
+{}
+local scope
+block scope
+global scope
+
+
+
